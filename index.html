@@ -5,6 +5,15 @@
     <title>Pictures</title>
 </head>
 <body>
-    <img src="./001.gif" alt="">
+    <style>
+        video {
+          width: 300px; /* Adjust width as needed */
+          height: auto; 
+          object-fit: cover; /* Ensures the video covers the area without distortion */
+        }
+    </style>
+    <video autoplay loop muted playsinline>
+        <source src="001.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
